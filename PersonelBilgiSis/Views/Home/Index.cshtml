@@ -1,0 +1,75 @@
+﻿@model PersonelBilgiSis.ViewModel.HomeIndex
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">PERSONEL BİLGİ SİSTEMİ</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href='@Url.Action("Login", "Account", new { Area = "Admin" })'><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href='@Url.Action("Register","Account", new { Area = "Admin" })'><span class="glyphicon glyphicon-user"></span>Register</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <img alt="Brand" src="~/Content/img/logo.png">  <h4>TRAKYA ÜNİVERSİTESİ-HOŞGELDİNİZ!</h4>
+        </div>
+    </div>
+    <div class="container">
+        @using (Html.BeginForm())
+            {
+            @Html.LabelFor(x => x.PersonelNameFilter, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.TextBoxFor(x => x.PersonelNameFilter)
+
+            @Html.LabelFor(x => x.DepartmentFilter, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.TextBoxFor(x => x.DepartmentFilter)
+
+            <input type="submit" value="PERSONEL ARA" style="background-color:blue; height:30px; color:white" />
+            <p></p><p></p>
+        }
+    </div>
+    @if(Model.Users != null)
+    {
+        <table>
+            <tr>
+           @foreach (var u in Model.Users)
+           {
+                <td>
+                    <table border="0" style="background-color:antiquewhite; border-radius:30px 30px 30px 30px" align="center">
+                        <tr>
+                            <td align="center">
+                                <h3><a href="@Url.Action("Detail",new {id=u.UserID })">@u.UserNameSurname &diams;</a></h3>
+                                <h4> @u.Email</h4>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+           }
+</tr>
+</table>
+    }
+</body>
+
+</html>

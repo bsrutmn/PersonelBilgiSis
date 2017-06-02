@@ -1,0 +1,58 @@
+﻿@model IEnumerable<PersonnelInformationSystem.Areas.Admin.Models.AcademicandAdministrativeDuties>
+
+@{
+    ViewBag.Title = "Akademik ve İdari Görevler";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Akademik ve İdari Görevler</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Sites)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Start)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Finish)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dahili)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sites)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Start)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Finish)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dahili)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { id=item.DutyId }) |
+            @Html.ActionLink("Detaylar", "Details", new { id=item.DutyId }) |
+            @Html.ActionLink("Sil", "Delete", new { id=item.DutyId })
+        </td>
+    </tr>
+}
+
+</table>

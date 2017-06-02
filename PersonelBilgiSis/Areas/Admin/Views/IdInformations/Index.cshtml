@@ -1,0 +1,118 @@
+﻿@model IEnumerable<PersonnelInformationSystem.Areas.Admin.Models.IdInformation>
+
+@{
+    ViewBag.Title = "Kimlik Bilgileri";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Kimlik Bilgileri</h2>
+
+<p>
+    @Html.ActionLink("Kimlik Bilgileri", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NameSurname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Degree)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Birthpalace)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TCKNO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RegistryNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ForeignLanguage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Professions)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Interests)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TelephoneNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dahili)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KurumsalVoip)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GSM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OtherEmail)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameSurname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Degree)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Birthpalace)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TCKNO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RegistryNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ForeignLanguage)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Professions)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Interests)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TelephoneNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dahili)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KurumsalVoip)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GSM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OtherEmail)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

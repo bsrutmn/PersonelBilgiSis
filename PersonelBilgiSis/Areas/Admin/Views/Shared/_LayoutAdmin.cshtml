@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SB Admin </title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/Content/css/sb-admin.css" rel="stylesheet">
+    <!-- Morris Charts CSS -->
+    <link href="~/Content/css/plugins/morris.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="~/Content/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="~/Admin/Home/Index">Blog Admin</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> @(((PersonelBilgiSis.Models.User)Session["User"]).UserNameSurname) <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Profil</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Ayarlar</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href='@Url.Action("Login","Account")'><i class="fa fa-fw fa-power-off"></i> Çıkış</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            @RenderSection("s1",false)
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li class="active">
+                        <a href="~/Admin/Home/Index"><i class="fa fa-fw fa-dashboard"></i>Admin Özet</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("Create","IdInformations")' ><i class="glyphicon glyphicon-user"></i> Kimlik Bilgileri</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("","ProfileImages")'><i class="glyphicon glyphicon-picture"></i> Profil Resmi</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("","Biographies")'><i class="glyphicon glyphicon-pencil"></i> Biyografi</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("","EducationInfoes")'><i class="glyphicon glyphicon-education"></i> Eğitim Durumu</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("","AcademicandAdministrativeDuties")'><i class="glyphicon glyphicon-tasks"></i> Akademik ve İdari Görevler</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("","JobExperiences")'><i class="glyphicon glyphicon-edit"></i> İş Tecrübesi</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("","Publications")'><i class="glyphicon glyphicon-edit"></i>Yayınlar</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("","GivenLessons")'><i class="glyphicon glyphicon-book"></i> Verdiği Dersler</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("","ProjectApplications")'><i class="glyphicon glyphicon-bookmark"></i> Proje Uygulaması</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("","Notices")'><i class="glyphicon glyphicon-commente"></i> Duyurular</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("","Files")'><i class="glyphicon glyphicon-folder-open"></i> Dosyalar</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+        <div id="page-wrapper">
+            @RenderBody()
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="~/Content/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <!-- Morris Charts JavaScript -->
+    <script src="~/Content/js/raphael.min.js"></script>
+    <script src="~/Content/js/morris.min.js"></script>
+    <script src="~/Content/js/morris-data.js"></script>
+</body>
+</html>

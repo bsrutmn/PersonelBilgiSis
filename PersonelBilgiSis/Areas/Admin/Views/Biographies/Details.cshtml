@@ -1,0 +1,27 @@
+﻿@model PersonelBilgiSis.Areas.Admin.Models.Biography
+
+@{
+    ViewBag.Title = "Detaylar";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Detaylar</h2>
+
+<div>
+    <h4>Biography</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BiographyContent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BiographyContent)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.BioId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

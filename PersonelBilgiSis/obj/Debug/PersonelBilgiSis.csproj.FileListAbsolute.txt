@@ -1,0 +1,336 @@
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\ApplicationInsights.config
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\csc.exe
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\System.Collections.Immutable.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\vbc.exe
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\VBCSCompiler.exe
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\VBCSCompiler.exe.config
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\PersonelBilgiSis.dll.config
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\PersonelBilgiSis.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\PersonelBilgiSis.pdb
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Antlr3.Runtime.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.SqlServer.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.DependencyCollector.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.Web.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.WindowsServer.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.ApplicationInsights.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Google.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Web.Infrastructure.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Newtonsoft.Json.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Owin.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Helpers.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Mvc.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Optimization.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Razor.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Deployment.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Razor.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\WebGrease.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.DependencyCollector.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.Web.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.WindowsServer.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.ApplicationInsights.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Helpers.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Mvc.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Optimization.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Razor.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Deployment.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Razor.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Antlr3.Runtime.pdb
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Newtonsoft.Json.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.SqlServer.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Google.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\obj\Debug\PersonelBilgiSis.dll
+C:\Visual Studio 2015\PersonelBilgiSis\PersonelBilgiSis\obj\Debug\PersonelBilgiSis.pdb
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\ApplicationInsights.config
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\PersonelBilgiSis.dll.config
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\PersonelBilgiSis.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\PersonelBilgiSis.pdb
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Antlr3.Runtime.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.Web.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.ApplicationInsights.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Owin.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Helpers.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Mvc.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Optimization.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Razor.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Razor.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\WebGrease.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.Web.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.ApplicationInsights.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Helpers.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Mvc.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Optimization.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Razor.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Razor.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Antlr3.Runtime.pdb
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Newtonsoft.Json.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\obj\Debug\PersonelBilgiSis.dll
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\obj\Debug\PersonelBilgiSis.pdb
+C:\Users\lenovo\Desktop\PersonelBilgiSis\PersonelBilgiSis\obj\Debug\PersonelBilgiSis.csprojResolveAssemblyReference.cache
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\ApplicationInsights.config
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\csc.exe
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\csc.exe.config
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\csc.rsp
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\csi.exe
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\csi.exe.config
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\csi.rsp
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.AppContext.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Console.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.IO.Compression.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Security.Claims.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.ValueTuple.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\vbc.exe
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\vbc.exe.config
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\vbc.rsp
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\VBCSCompiler.exe
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\PersonelBilgiSis.dll.config
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\PersonelBilgiSis.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\PersonelBilgiSis.pdb
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Antlr3.Runtime.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\EntityFramework.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\EntityFramework.SqlServer.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AI.Web.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Newtonsoft.Json.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Owin.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.Helpers.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.Mvc.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.Optimization.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.Razor.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.WebPages.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.WebPages.Razor.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\WebGrease.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Antlr3.Runtime.pdb
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\EntityFramework.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\EntityFramework.SqlServer.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AI.Web.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Newtonsoft.Json.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.Helpers.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.Mvc.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.Optimization.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.Razor.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.WebPages.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\System.Web.WebPages.Razor.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\obj\Debug\PersonelBilgiSis.dll
+C:\Users\Elif\Desktop\PersonelBilgiSisı\PersonelBilgiSis\obj\Debug\PersonelBilgiSis.pdb
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\csc.exe
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\roslyn\VBCSCompiler.exe
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\ApplicationInsights.config
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\PersonelBilgiSis.dll.config
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\PersonelBilgiSis.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\PersonelBilgiSis.pdb
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Antlr3.Runtime.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.SqlServer.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.Web.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Newtonsoft.Json.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Owin.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Helpers.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Mvc.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Optimization.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Razor.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Razor.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\WebGrease.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Antlr3.Runtime.pdb
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\EntityFramework.SqlServer.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.Web.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Newtonsoft.Json.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Helpers.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Mvc.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Optimization.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.Razor.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\System.Web.WebPages.Razor.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\obj\Debug\PersonelBilgiSis.dll
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\obj\Debug\PersonelBilgiSis.pdb
+C:\Users\Elif\Desktop\PersonelBilgiSis\PersonelBilgiSis\obj\Debug\PersonelBilgiSis.csprojResolveAssemblyReference.cache

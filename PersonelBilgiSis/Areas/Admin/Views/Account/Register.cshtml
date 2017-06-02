@@ -1,0 +1,79 @@
+﻿@model PersonelBilgiSis.Models.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Kaydol</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-horizontal">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4">
+                        <div class="login-panel panel panel-default">
+                            <div class="panel-heading">
+                              
+                            </div>
+                            <div class="panel-body">
+                                <form role="form">
+                                    <center>
+                                        <fieldset>
+    <h3 class="panel-title">Yeni Kulanıcı</h3>
+
+    <img src="~/Content/img/logo.png" alt="" class="img-responsive center-block" />
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email, "Email", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.PasswordHash, "Şifre", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.PasswordHash, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.PasswordHash, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.UserNameSurname, "Ad Soyad", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.UserNameSurname, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.UserNameSurname, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Kaydol" class="btn btn-primary" />
+        </div>
+    </div>
+                                            <p>
+                                                @Html.ActionLink("Üye Girişi", "login")
+                                            </p>              
+                                          </fieldset>
+                                    </center>
+                                </form>
+                            </div>
+                        </div>
+                      
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</body>
+</html>

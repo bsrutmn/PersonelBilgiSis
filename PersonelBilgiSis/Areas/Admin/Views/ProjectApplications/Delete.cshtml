@@ -1,0 +1,65 @@
+﻿@model PersonelBilgiSis.Areas.Admin.Models.ProjectApplication
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ProjectApplication</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectState)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectState)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApplicantInstitution)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApplicantInstitution)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Durumu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Durumu)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,236 @@
+﻿@model PersonelBilgiSis.ViewModel.HomeDetail
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>Detail</h2>
+
+
+    ViewBag.Title = "personel";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/Content/css/scrolling-nav.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <div class="navbar-header">
+    </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*<a class="navbar-brand" href="#">
+                        <img src="~/Content/img/logo.png">
+                    </a>*@
+                <a class="navbar-brand page-scroll" href="#page-top">Trakya Üniversitesi</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a class="page-scroll" href="#kimlik">Kimlik Bilgileri</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#egitim">Eğitim Durumu</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#unvan">Akademik Unvanlar</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#gorev">Görevler</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#yayin">Yayınlar</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#dersler">Verdiği Dersler</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#duyuru">Duyurular</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Kimlik Bilgileri -->
+    <section id="kimlik" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Kimlik Bilgileri</h1>
+                    <tbody>
+                    <tr>
+                       
+                        <td><h4>@Model.IdInformation.NameSurname</h4></td>
+                        <td><h4>@Model.IdInformation.Gender</h4></td>
+
+                        <td><h4>@Model.IdInformation.Degree</h4></td>
+                        <td><h4>@Model.IdInformation.Birthpalace</h4></td>
+                        <td><h4>@Model.IdInformation.TCKNO</h4></td>
+
+                        <td><h4>@Model.IdInformation.RegistryNo</h4></td>
+                        <td><h4>@Model.IdInformation.ForeignLanguage</h4></td>
+                        <td><h4>@Model.IdInformation.Professions</h4></td>
+
+                        <td><h4>@Model.IdInformation.Interests</h4></td>
+                        <td><h4>@Model.IdInformation.TelephoneNumber</h4></td>
+                        <td><h4>@Model.IdInformation.Dahili</h4></td>
+
+                        <td><h4>@Model.IdInformation.KurumsalVoip</h4></td>
+                        <td><h4>@Model.IdInformation.GSM</h4></td>
+                        <td><h4>@Model.IdInformation.Email</h4></td>
+
+                        <td><h4>@Model.IdInformation.OtherEmail</h4></td>
+
+
+                    </tr>   
+                    </tbody>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Eğitim Durumu -->
+    <section id="egitim" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Eğitim Durumu</h1>
+                    @foreach (var title in Model.EducationInfoes)
+                    {
+                        <h4>@title.OgrenimSeviyesi</h4>
+                                            <h4>@title.SchoolName</h4>
+                                            <h4>@title.MezuniyetYili</h4>
+                                            <h4>@title.Tez</h4>
+                                            <h4>@title.TezUrl</h4>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akademik Unvanlar -->
+    <section id="unvan" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Akademik Unvanlar</h1>
+                                        @foreach (var title in Model.AcademicTitles)
+                                        {
+                                            <h4>@title.Unvan</h4>
+                                            <h4>@title.institution</h4>
+                                            <h4>@title.Year</h4>
+                                                    }
+</div>
+            </div>
+        </div>
+    </section>
+    <!-- Görevler -->
+    <section id="gorev" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Görevler</h1>
+                    @foreach (var title in Model.AcademianAndAdministrativeDuties)
+                    {
+                        <h4>Başlangıç: @title.Start ,
+                         Bitiş: @title.Finish</h4>
+                        <h4> Telefon: @title.Telefon</h4>
+                        <h4>Dahili:  @title.Dahili</h4>
+
+                       
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Yayınlar -->
+    <section id="yayin" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Yayınlar</h1>
+                    @foreach (var title in Model.Publications)
+                    {
+                        <h4> @title.PublicationTR</h4>
+                        <h4> @title.PublicationEN</h4>
+                        <h4> @title.Month</h4>
+                        <h4>  @title.Year</h4>
+                        <h4>  @title.Row</h4>
+
+
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Verdiği Dersler -->
+    <section id="dersler" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Verdiği Dersler</h1>
+                    @foreach (var title in Model.GivenLessons)
+                    {
+                        <h4>  @title.Sites</h4>
+                        <h4> @title.LessonName</h4>
+
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Duyurular -->
+    <section id="duyuru" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Duyurular</h1>
+                    @foreach (var title in Model.Notices)
+                    {
+                        <h4> @title.Sites</h4>
+                        <h4> @title.NoticeTitle</h4>
+
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- jQuery -->
+    <script src="~/Content/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="~/Content/js/jquery.easing.min.js"></script>
+    <script src="~/Content/js/scrolling-nav.js"></script>
+</body>
+</html>
+
+

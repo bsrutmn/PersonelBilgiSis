@@ -1,0 +1,35 @@
+﻿@model PersonnelInformationSystem.Areas.Admin.Models.Notices
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Notices</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Sites)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sites)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoticeTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoticeTitle)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NoticeId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

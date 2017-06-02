@@ -1,0 +1,59 @@
+﻿@model PersonelBilgiSis.Areas.Admin.Models.ProjectApplication
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ProjectApplication</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectState)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectState)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApplicantInstitution)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApplicantInstitution)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Durumu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Durumu)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProjectId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

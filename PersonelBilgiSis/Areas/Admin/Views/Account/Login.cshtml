@@ -1,0 +1,93 @@
+﻿@model PersonelBilgiSis.Models.User
+@{
+    ViewBag.Title = "login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Login</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="~/Content/css/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/Content/css/sb-admin-2.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+   @using (Html.BeginForm())
+{
+@Html.AntiForgeryToken()
+                      <div class="form-horizontal">
+           @Html.ValidationSummary(true, "", new { @class="text-danger"})
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="login-panel panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Kullanıcı Girişi</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form role="form">
+                                <center>
+                                    <img src="~/Content/img/logo.png" alt="" class="img-responsive center-block" />
+                                    <fieldset>
+                                        <div class="form-group ">
+                                            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "Form-control ", @placeholder = "Email" } })
+                                            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                        </div>
+                                        <div class="form-group ">
+                                            @Html.EditorFor(model => model.PasswordHash, new { htmlAttributes = new { @class = "Form-control", @placeholder = "Şifre" } })
+                                            @Html.ValidationMessageFor(model => model.PasswordHash, "", new { @class = "text-danger" })
+                                        </div>
+                                        <div>
+                                            <label>
+                                                <input name="remember" type="checkbox" value="Remember Me">Beni Hatırla
+                                            </label>
+                                        </div>
+                                        <!-- Change this to a button or input when using this as a form -->
+                                        <input type="submit" class="btn btn-primary" value="Giriş" />
+
+                                    </fieldset>
+                                </center>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <p>
+                        @Html.ActionLink("Kayıt Ol", "register")
+                    </p>
+                    @* Enable this once you have account confirmation enabled for password reset functionality
+                        <p>
+                            @Html.ActionLink("Forgot your password?", "ForgotPassword")
+                        </p>*@
+                </div>
+            </div>
+        </div>
+    </div>
+  }
+    <!-- jQuery -->
+    <script src="~/Content/js/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="~/Content/js/metisMenu.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="~/Content/js/js/sb-admin-2.js"></script>
+</body>
+</html>
+

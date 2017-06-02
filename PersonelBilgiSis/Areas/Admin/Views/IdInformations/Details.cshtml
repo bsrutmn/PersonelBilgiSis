@@ -1,0 +1,139 @@
+﻿@model PersonnelInformationSystem.Areas.Admin.Models.IdInformation
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>IdInformation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NameSurname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameSurname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Degree)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Degree)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Birthpalace)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Birthpalace)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TCKNO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TCKNO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RegistryNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegistryNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ForeignLanguage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ForeignLanguage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Professions)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Professions)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Interests)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Interests)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TelephoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TelephoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dahili)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dahili)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KurumsalVoip)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KurumsalVoip)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GSM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GSM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OtherEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OtherEmail)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

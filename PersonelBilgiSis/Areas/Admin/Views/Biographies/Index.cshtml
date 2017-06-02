@@ -1,0 +1,34 @@
+﻿@model IEnumerable<PersonelBilgiSis.Areas.Admin.Models.Biography>
+
+@{
+    ViewBag.Title = "Biyografi";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Biyografi</h2>
+
+<p>
+    @Html.ActionLink("Biyografi", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BiographyContent)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BiographyContent)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BioId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BioId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BioId })
+        </td>
+    </tr>
+}
+
+</table>

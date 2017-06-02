@@ -1,0 +1,51 @@
+﻿@model PersonnelInformationSystem.Areas.Admin.Models.JobExperience
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>JobExperience</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Birim_Kurum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Birim_Kurum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gorev)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gorev)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Baslangic)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Baslangic)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bitis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bitis)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.JobID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

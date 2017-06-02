@@ -1,0 +1,58 @@
+﻿@model IEnumerable<PersonelBilgiSis.Areas.Admin.Models.Publications>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PublicationTR)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PublicationEN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Month)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Year)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Row)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PublicationTR)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PublicationEN)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Month)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Year)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Row)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PublicationId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PublicationId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PublicationId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,65 @@
+﻿@model PersonelBilgiSis.Models.EducationInfo
+
+@{
+    ViewBag.Title = "Sil";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Sil</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>EducationInfo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.OgrenimSeviyesi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OgrenimSeviyesi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SchoolName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SchoolName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MezuniyetYili)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MezuniyetYili)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tez)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tez)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TezUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TezUrl)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
